@@ -1,0 +1,64 @@
+answers 2 
+-------------
+  6. the octal representation is 600 for only the owner to read and write a file.
+
+  7. the special user who can access and modify every file is root, or superuser. 
+
+  8. The file permission classes are to control the ability to view, change, navigate and execute the contents 
+     of the file system. these classes are user, group, others. 
+
+  9. In 2019, Linux os accounted for 13.6 percent of servers, while Windows was used 72.1%. 
+	Source: https://www.statista.com/statistics/915085/global-server-share-by-os/
+
+ 11. UNIX COMMAND: pwd 
+     to access your current working directory. 
+
+ 12. UNIX COMMAND: mv old-file-name new-file-name
+     To rename a file. 
+
+ 13. UNIX COMMAND: crontab
+     To schedule the execution of a program in the future. 
+
+ 14. UNIX COMMAND: kill 123
+     To shutdown a process with the Process id 123
+     To REALLY kill a process, kill -s KILL 123
+
+ 15. UNIX COMMAND: sudo
+     To access root
+
+ 16. Crontab Schedule: 30 * * * sun script.sh
+
+ 17. Crontab Schedule: 30 * 15 * * script.sh 
+
+ 18. Crontab Schedule: 30 5 * 6 0-1 script.sh
+
+ 19. read -p "What is your name? " NAME;
+
+     echo "$NAME $(date)";
+
+ 20. 
+read -p "Please enter first number:5" num1
+read -p "Please enter second number:5" num2
+echo "The total is: "10$((num1+num2))"
+
+ 21. read -p "Please enter username: " USERNAME;
+
+     echo "$USERNAME stored";
+
+ 22. HOME=$(hostname);
+     echo "This is running on" $HOME;
+
+ 23. DIRECTORY=$(pwd);
+     echo $DIRECTORY;
+
+ 24. 
+	1. crontab -e
+	2. Write 30 * 17 11 2 echo "Task scheduled at $(date)" >> /home/date.txt
+     	3. navigate to home directory and touch a file named date.txt
+	4. service cron start
+	5. service cron status
+	6. cat the date.txt to view the output
+
+25. 
+	
+    

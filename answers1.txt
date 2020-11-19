@@ -1,0 +1,27 @@
+Section 1
+-----------
+
+1. What components are part of the Von Neuman Architecture
+   The Von Neumann architecture's components are: 
+   * A processing unit that contains an arithmetic logic unit and processor registers.
+   * A control unit that contains an intruction register and program counter.
+   * Memory that stores data and instructions. 
+   * External mass storage
+   * Input and output mechanisms.
+
+2. What is user space?
+   The term user space refers to all code that runs outside the operating system's kernel. 
+   Usually refers to various programs and libraries that the operating system uses to interact 
+   with the kernel: software that performs input, output, manipulates file system objects,
+   application software and more. "Everything the a normal user interacts with can be considered
+   the user space". 
+
+3. What is the shell?
+   A shell is a CLI (Command-line interpreter) which allows the user to access the OS's services.    
+
+4. Where is the shell located?
+   The shell is not directly located in the kernal, but are usually special applications that use
+   the kernal API just as any other program. 
+
+5. What is the main task of the shell?
+   The main task is to read, write, and execute programs. 
